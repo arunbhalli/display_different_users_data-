@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="App">
       <div className='page-deets'>
+        <div className='heading'>
         <h1>Users information</h1>
+        </div>
       </div>
       <div className="users">
       {users.map((user, index)=> 
