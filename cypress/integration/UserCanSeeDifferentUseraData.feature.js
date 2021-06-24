@@ -7,7 +7,7 @@ describe('user can see different users information', () => {
       cy.get('[data-cy=name]').should('contain', '😃 William');
       cy.get('[data-cy=location]').should('contain', '🏘️ Lagos');
       cy.get('[data-cy=car]').should('contain', '🚘 Honda');
-      cy.get('[data-cy=age]').should('contain', '25');
+      cy.get('[data-cy=age]').should('contain', '24');
     });
   });
 });
