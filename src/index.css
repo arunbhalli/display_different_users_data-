@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.users {
+  text-align: left;
+  margin: 30px 20px;
+}
+.users div {
+  color: rgb(105, 248, 9);
+  padding: 10px;
+  margin: 10px;
+  background: rgb(27, 144, 221);
+  border-radius: 10px;
+}
+.page-deets {
+  margin-top: 80px;
+}
+.heading{
+  text-align: center;
+  color: blue;
+}
+
